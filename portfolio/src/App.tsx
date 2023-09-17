@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-// import Hero from "./components/Hero";
+import Header from "./components/Header";
 import About from "./components/About";
 // import { Project } from "./components/Project";
 // import Work from "./components/Work";
@@ -20,7 +20,7 @@ const App = () => {
       <div className="dark:bg-[#0b1121] transition-all duration-300 ease-in-out ">
         {/* <div className="dark:bg-algolia"> */}
         <MainDiv id="Blur">
-          {/* <Hero /> */}
+          <Header />
           <About />
           {/* <Project />
           <Work />
