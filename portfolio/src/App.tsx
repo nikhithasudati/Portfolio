@@ -5,7 +5,7 @@ import About from "./components/About";
 // import { Project } from "./components/Project";
 import Work from "./components/Work";
 // import Blog from "./components/Blog";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -24,8 +24,8 @@ const App = () => {
           <About />
           {/* <Project /> */}
           <Work />
-          {/* <Blog />
-          <Footer /> */}
+          {/* <Blog /> */}
+          <Footer />
         </MainDiv>
       </div>
     </>
