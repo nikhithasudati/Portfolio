@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { GlobalStyle } from "./styles/GlobalStyle";
+// import { GlobalStyle } from "./styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import reportWebVitals from "./reportWebVitals";
 import {Analytics} from '@vercel/analytics/react'
 import ReactGa from "react-ga4"
@@ -29,8 +29,8 @@ const theme = {
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <Navbar />
+      {/* <GlobalStyle />
+      <Navbar /> */}
       <App />
     </ThemeProvider>
     <Analytics />

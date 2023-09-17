@@ -37,7 +37,7 @@ const About = () => {
 
         <RightGrid>
           <BgImg
-            src="#"
+            src="https://ik.imagekit.io/sz5ttlvhz/Footerbg.png?updatedAt=1694977193462"
             alt=""
           />
           <Tilt
