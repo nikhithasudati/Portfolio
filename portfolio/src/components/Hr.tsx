@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Hr = () => {
+const Ruler = () => {
   return <HorizontalRuler />;
 };
 
@@ -20,4 +20,4 @@ const HorizontalRuler = styled.hr`
   }
 `;
 
-export default Hr;
+export default Ruler;

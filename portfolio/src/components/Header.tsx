@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import Hr from "./Hr";
+import Ruler from "./Hr";
 import { Link } from "react-scroll";
 import ReactGa from "react-ga4"
 
@@ -122,7 +122,7 @@ const Header = () => {
         </BtnDiv>
       </main>
 
-      <Hr />
+      <Ruler />
     </>
   );
 };
