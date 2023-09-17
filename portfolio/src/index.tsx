@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { GlobalStyle } from "./styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import reportWebVitals from "./reportWebVitals";
 import {Analytics} from '@vercel/analytics/react'
 import ReactGa from "react-ga4"
@@ -30,7 +30,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      {/* <Navbar /> */}
+      <Navbar />
       <App />
     </ThemeProvider>
     <Analytics />
