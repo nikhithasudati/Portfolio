@@ -3,7 +3,7 @@ import tw from "twin.macro";
 import Header from "./components/Header";
 import About from "./components/About";
 // import { Project } from "./components/Project";
-// import Work from "./components/Work";
+import Work from "./components/Work";
 // import Blog from "./components/Blog";
 // import Footer from "./components/Footer";
 import AOS from "aos";
@@ -22,9 +22,9 @@ const App = () => {
         <MainDiv id="Blur">
           <Header />
           <About />
-          {/* <Project />
+          {/* <Project /> */}
           <Work />
-          <Blog />
+          {/* <Blog />
           <Footer /> */}
         </MainDiv>
       </div>
