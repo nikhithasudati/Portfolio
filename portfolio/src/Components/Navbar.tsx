@@ -54,23 +54,6 @@ const Navbar = () => {
     <>
       <NavbarDiv>
         <ActualNavbar>
-          <LeftLogo>
-            <span className="sr-only">Logo</span>
-            <span className="block">
-              <img
-                alt="Nikhitha Sudati"
-                width="38"
-                height="38"
-                className="rounded-full invert dark:invert-0"
-                style={{ color: "transparent" }}
-                // src={Images.BLogo}
-                data-aos="flip-left"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-              />
-            </span>
-          </LeftLogo>
-
           <nav className="hidden gap-x-[4rem] text-[1.9rem] md:flex">
             <Link
               to="Home"
@@ -116,17 +99,7 @@ const Navbar = () => {
             >
               <NavLinks>Work</NavLinks>
             </Link>
-            <Link
-              to="Blog"
-              spy={true}
-              hashSpy={true}
-              isDynamic={true}
-              smooth={true}
-              offset={-200}
-              duration={400}
-            >
-              {/* <NavLinks>Blog</NavLinks> */}
-            </Link>
+            
           </nav>
 
           <ButtonDiv>
@@ -293,24 +266,6 @@ const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="Blog"
-                  spy={true}
-                  hashSpy={true}
-                  isDynamic={true}
-                  smooth={true}
-                  offset={-200}
-                  duration={400}
-                  onClick={() => {
-                    setOpenMenu(false);
-                  }}
-                >
-                  <span className="text-2xl hover:text-teal-400 dark:hover:text-teal-500 cursor-pointer">
-                    Blog
-                  </span>
-                </Link>
-              </li>
             </ul>
             <div className="pt-6 mt-6 border-t border-gray-200 dark:border-gray-200/10">
               <DialogDarkBtn
@@ -387,16 +342,7 @@ const NavLinks = styled.span`
   }
 `;
 
-const LeftLogo = tw.div`
-flex 
-justify-start 
-mt-1
-pl-2
-tablet:pl-0
-lg:w-0
-lg:flex-1
-select-none
-`;
+
 
 const ButtonDiv = tw.div`
 items-center 
