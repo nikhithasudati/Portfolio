@@ -55,7 +55,7 @@ const Header = () => {
             <ProfileImgDiv>
               <ProfileImg
                 alt="Nikhitha Sudati"
-                src="https://ik.imagekit.io/sz5ttlvhz/IMG_1210_Original.HEIC?updatedAt=1694979216593"
+                src="https://ik.imagekit.io/sz5ttlvhz/IMG_8373.heic?updatedAt=1695493455190"
                 className="col-span-1 rounded-full"
                 data-aos="fade-left"
                 data-aos-easing="ease-in-sine"

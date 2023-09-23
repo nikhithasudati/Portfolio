@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import Header from "./components/Header";
 import About from "./components/About";
-// import { Project } from "./components/Project";
+import { Project } from "./components/Project";
 import Work from "./components/Work";
 // import Blog from "./components/Blog";
 import Footer from "./components/Footer";
@@ -22,7 +22,7 @@ const App = () => {
         <MainDiv id="Blur">
           <Header />
           <About />
-          {/* <Project /> */}
+          <Project />
           <Work />
           {/* <Blog /> */}
           <Footer />
