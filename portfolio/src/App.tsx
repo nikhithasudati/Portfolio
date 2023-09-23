@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import About from "./components/About";
 import { Project } from "./components/Project";
 import Work from "./components/Work";
-// import Blog from "./components/Blog";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,7 +23,6 @@ const App = () => {
           <About />
           <Project />
           <Work />
-          {/* <Blog /> */}
           <Footer />
         </MainDiv>
       </div>

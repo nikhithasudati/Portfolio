@@ -23,7 +23,7 @@ const Header = () => {
           />
           <RayHero
             alt=""
-            src="https://ik.imagekit.io/bhanu1776/Portfolio/Hero-bg.png?updatedAt=1679832384667"
+            src="https://ik.imagekit.io/sz5ttlvhz/Footerbg.png?updatedAt=1694977193462"
             decoding="async"
             data-nimg="intrinsic"
             className="absolute top-0 right-0"
