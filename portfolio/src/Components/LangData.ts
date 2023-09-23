@@ -42,6 +42,21 @@ interface Obj {
       alt: "C",
       width: "40",
     },
+    {
+      index: 7,
+      src: "https://www.vectorlogo.zone/logos/erlang/erlang-official.svg",
+      alt: "Erlang",
+      width: "40",
+    },
+    {
+      index: 8,
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+      alt: "C#",
+      width: "40",
+    },
+
+  
+
   ];
   
   const Web: Obj[] = [
@@ -75,42 +90,50 @@ interface Obj {
       alt: "Bootstrap",
       width: "40",
     },
+    
     {
       index: 6,
-      src: "https://miro.medium.com/max/480/1*Iohnw2aOQ5EBghVoqKA7VA.png",
-      alt: "Styled-Components",
-      width: "40",
-    },
-    {
-      index: 7,
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
       alt: "ReactJs",
       width: "40",
     },
     {
-      index: 8,
+      index: 7,
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
       alt: "NodeJs",
       width: "40",
     },
     {
-      index: 9,
+      index: 8,
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       alt: "Redux-toolkit",
       width: "32",
     },
     {
-      index: 10,
+      index: 9,
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
       alt: "Express",
       width: "45",
     },
     {
-      index: 11,
+      index: 10,
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       alt: "Next.js",
       width: "32",
     },
+    {
+      index: 11,
+      src: "https://cdn.worldvectorlogo.com/logos/django.svg",
+      alt: "Django",
+      width: "32",
+    },
+    {
+      index: 12,
+      src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
+      alt: "Erlang",
+      width: "32",
+    },
+    
   ];
   
   const Tools: Obj[] = [
@@ -126,36 +149,23 @@ interface Obj {
       alt: "VsCode",
       width: "40",
     },
-    {
-      index: 3,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vim/vim-original.svg",
-      alt: "Vim",
-      width: "40",
-    },
+    
     {
       index: 4,
       src: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       alt: "Postman",
       width: "40",
     },
-    {
-      index: 5,
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg",
-      alt: "Eslint",
-      width: "36",
-    },
+    
     {
       index: 6,
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg",
       alt: "Prettier",
       width: "36",
     },
-    {
-      index: 7,
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hugo/hugo-plain.svg",
-      alt: "Husky",
-      width: "36",
-    },
+    
+
+    
   ];
   
   const Other: Obj[] = [

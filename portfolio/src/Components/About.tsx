@@ -16,21 +16,18 @@ const About = () => {
 
           <article className="mt-8">
             <LeftPara>
-                Hello !! My name is Nikhitha Sudati. I am a current Graduate Student 
-                at University Of Florida. Specializing in Computer Science
+            Hello there! I'm Nikhitha Sudati, currently pursuing my graduate studies at the University of Florida, 
+            with a focus on Computer Science. 
             </LeftPara>
             <LeftPara>
-              I love to explore new technologies and leverage them to solve
-              real-life problems. I'm a passionate learner who's always willing
-              to learn and work across various technologies and domains. In my
-              spare time, I love to explore open-source projects.
+            I have a strong passion for exploring the latest technologies and using them to solve practical problems.
+             I'm an enthusiastic learner, always eager to dive into various tech fields.
             </LeftPara>
             <LeftPara>
-              I am highly proficient in web development. I love to build
-              responsive user-friendly websites that look visually appealing,
-              with nice and fluid interactions, and close attention to User
-              Experience. I constantly strive for the best outcome on any
-              project I take on.
+            In my free time, I enjoy diving into open-source projects. My expertise lies in web development, 
+            where I create visually appealing and user-friendly websites with smooth interactions 
+            and a strong focus on providing an excellent user experience.
+            I'm committed to delivering the best results in every project I take on.
             </LeftPara>
           </article>
         </LeftGrid>
