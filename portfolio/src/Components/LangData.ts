@@ -130,13 +130,53 @@ interface Obj {
     {
       index: 12,
       src: "https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg",
-      alt: "Erlang",
+      alt: "Flask",
       width: "32",
     },
     
   ];
   
   const Tools: Obj[] = [
+   {index: 1,
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+    alt: "Docker",
+    width: "36",
+  },
+  {index: 2,
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    alt: "AWS",
+    width: "36",
+  },
+  {index: 3,
+    src: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg",
+    alt: "Kubernetes",
+    width: "36",
+  },
+  {index: 4,
+    src: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+    alt: "Jenkins",
+    width: "36",
+  },
+  {index: 5,
+    src: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg",
+    alt: "Bash",
+    width: "36",
+  },  
+  {index: 6,
+    src: "https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg",
+    alt: "Cypress",
+    width: "36",
+  }, 
+  {index: 7,
+    src: "https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg",
+    alt: "Selenium",
+    width: "36",
+  }, 
+
+
+  ];
+  
+  const Other: Obj[] = [
     {
       index: 1,
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
@@ -151,73 +191,58 @@ interface Obj {
     },
     
     {
-      index: 4,
+      index: 3,
       src: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       alt: "Postman",
       width: "40",
     },
-    
     {
-      index: 6,
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg",
-      alt: "Prettier",
-      width: "36",
-    },
-    
-
-    
-  ];
-  
-  const Other: Obj[] = [
-    {
-      index: 1,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      alt: "Mongodb",
-      width: "40",
-    },
-    {
-      index: 2,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      alt: "Mysql",
-      width: "40",
-    },
-    {
-      index: 3,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-      alt: "Aws",
-      width: "40",
-    },
-    {
-      index: 4,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg",
-      alt: "Jenkins",
-      width: "40",
-    },
-    {
-      index: 5,
-      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg",
-      alt: "Bash",
-      width: "40",
-    },
-    {
-      index: 6,
+      index:4,
       src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
       alt: "Linux",
       width: "40",
     },
     {
-      index: 7,
-      src: "https://cdn.worldvectorlogo.com/logos/pug.svg",
-      alt: "Pugjs",
+      index: 5,
+      src: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      alt: "Figma",
       width: "40",
     },
-    { index: 8, src: "https://mui.com/static/logo.png", alt: "MUI", width: "40" },
+    {
+      index: 6,
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      alt: "Mongodb",
+      width: "40",
+    },
+    {
+      index: 7,
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      alt: "Mysql",
+      width: "40",
+    },
+    
+    {
+      index: 8,
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      alt: "postgresql",
+      width: "40",
+    },
     {
       index: 9,
-      src: "https://www.clipartmax.com/png/full/421-4213226_keyboarding-practice-touch-typing-club-logo.png",
-      alt: "Touch-Typing @70wpm",
+      src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
+      alt: "Oracle",
       width: "40",
     },
+    {
+      index: 10,
+      src: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
+      alt: "sql-server",
+      width: "40",
+    },
+    
+
+    
+    
   ];
   
   export { Languages, Web, Tools, Other };

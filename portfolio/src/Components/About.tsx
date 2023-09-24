@@ -128,7 +128,7 @@ const About = () => {
               data-aos-duration="400"
               data-aos-once="true"
             >
-              <CardHeading>Tools</CardHeading>
+              <CardHeading>Devops</CardHeading>
               <LangDiv3>
                 {Tools.map((val) => {
                   return [
@@ -163,7 +163,7 @@ const About = () => {
               data-aos-duration="400"
               data-aos-once="true"
             >
-              <CardHeading>Other</CardHeading>
+              <CardHeading>Tools and Databases</CardHeading>
               <LangDiv4>
                 {Other.map((val) => {
                   return [
