@@ -37,22 +37,26 @@ const Header = () => {
       {/* //* Content with Image */}
       <main>
         <header className="grid items-center grid-cols-1  text-center md:mt-24 md:text-left md:grid-cols-6">
-          <LeftH1
-            data-aos="fade-right"
-            data-aos-duration="1000"
-            data-aos-easing="ease"
-            data-aos-mirror="true"
-            data-aos-once="false"
-          >
-            Hello, I'm
-            <span className="text-teal-500 dark:text-teal-400">
-              &nbsp;Nikhitha
-            </span>
-            . I'm a student, Web developer and Enthusiastic learner.
-          </LeftH1>
+        <LeftH1
+  data-aos="fade-right"
+  data-aos-duration="1000"
+  data-aos-easing="ease"
+  data-aos-mirror="true"
+  data-aos-once="false"
+>
+  Hello, I'm
+  <span className="text-teal-500 dark:text-teal-400">
+    &nbsp;Nikhitha
+  </span>
+  . I'm a student, Web developer, and enthusiastic learner. 
+  
+</LeftH1>
+    
+
+
 
           <div className="order-1 md:order-2">
-            <ProfileImgDiv>
+            {/* <ProfileImgDiv>
               <ProfileImg
                 alt="Nikhitha Sudati"
                 src="https://ik.imagekit.io/sz5ttlvhz/IMG_8373.heic?updatedAt=1695493455190"
@@ -61,7 +65,18 @@ const Header = () => {
                 data-aos-easing="ease-in-sine"
                 loading="lazy"
                 />
-            </ProfileImgDiv>
+            </ProfileImgDiv> */}
+            <ProfileImgDiv>
+  <ProfileImg
+    alt="Nikhitha Sudati"
+    src="https://ik.imagekit.io/sz5ttlvhz/IMG_8373.heic?updatedAt=1695493455190"
+    className="col-span-1 rounded-full"
+    data-aos="fade-left"
+    data-aos-easing="ease-in-sine"
+    loading="lazy"
+  />
+</ProfileImgDiv>
+
           </div>
         </header>
 
@@ -198,8 +213,8 @@ const ProfileImgDiv = styled.span`
   box-sizing: border-box;
   display: inline-block;
   overflow: hidden;
-  width: 160px;
-  height: 160px;
+  width: 250x;
+  height: 250px;
   background: none;
   opacity: 1;
   border: 0px;

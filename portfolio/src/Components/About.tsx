@@ -29,6 +29,10 @@ const About = () => {
             and a strong focus on providing an excellent user experience.
             I'm committed to delivering the best results in every project I take on.
             </LeftPara>
+            <LeftPara>
+            Iam actively looking for SDE, FulStack,Frontend,Backend, and devops roles starting January 2024.
+            </LeftPara>
+
           </article>
         </LeftGrid>
 
