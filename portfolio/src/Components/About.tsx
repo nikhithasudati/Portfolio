@@ -10,28 +10,32 @@ const About = () => {
       <GridDiv id="About">
         <LeftGrid>
           <header>
-            <LeftTitle>About Me</LeftTitle>
+            <LeftTitle>About Me & My Skills</LeftTitle>
           </header>
           <TitleDivider />
 
           <article className="mt-8">
-            <LeftPara>
-            Hello there! I'm Nikhitha Sudati, currently pursuing my graduate studies at the University of Florida, 
-            with a focus on Computer Science. 
-            </LeftPara>
-            <LeftPara>
-            I have a strong passion for exploring the latest technologies and using them to solve practical problems.
-             I'm an enthusiastic learner, always eager to dive into various tech fields.
-            </LeftPara>
-            <LeftPara>
-            In my free time, I enjoy diving into open-source projects. My expertise lies in web development, 
-            where I create visually appealing and user-friendly websites with smooth interactions 
-            and a strong focus on providing an excellent user experience.
-            I'm committed to delivering the best results in every project I take on.
-            </LeftPara>
-            <LeftPara>
-            Iam actively looking for SDE, FulStack,Frontend,Backend, and devops roles starting January 2024.
-            </LeftPara>
+          <LeftPara>
+  Hi, I'm Nikhitha Sudati, currently pursuing a graduate degree in Computer Science at the University of Florida. 
+  I'm a tech enthusiast with a fervor for exploring the latest technologies to solve real-world challenges.
+</LeftPara>
+
+<LeftPara>
+  I thrive on exploring emerging technologies and eagerly dive into various tech domains. 
+  When I'm not studying, you'll often find me immersed in open-source projects.
+</LeftPara>
+<LeftPara>
+  I specialize in both web development and backend technologies, combining creativity with technical prowess. 
+  My strength lies in crafting visually stunning, user-centric websites with seamless interactions, 
+  all while efficiently managing server-side components and database operations.
+</LeftPara>
+
+<LeftPara>
+   I'm actively seeking roles in <strong>Software Development</strong>, covering a spectrum from <strong>SDE and Full Stack 
+  to Frontend, Backend, and DevOps</strong>.Starting in January 2024, I'm excited to take on new challenges and contribute to innovative projects.
+</LeftPara>
+
+
 
           </article>
         </LeftGrid>
