@@ -359,7 +359,7 @@ const Project = () => {
           </p>
           <div>
           <Button
-              href="https://www.youtube.com/watch?v=-lOgPe6-czw"
+              href="https://github.com/nikhithasudati/Peer-to-Peer-filesharing"
               rel="noreferrer"
               className="group"
               onClick={() => {
