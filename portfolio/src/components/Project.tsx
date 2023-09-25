@@ -498,22 +498,6 @@ const Button = styled.a`
   }
 `;
 
-const Button2 = tw.button`
-  inline-flex 
-  relative
-  z-10
-  font-semibold 
-  transition 
-  text-midnight 
-  text-[1.7rem] 
-  items-center 
-  rounded-full 
-  px-9 
-  py-4 
-  bg-transparent
-  dark:text-white
-  select-none
-`;
 
 const Span1 = styled.span`
   box-sizing: border-box;
