@@ -24,8 +24,8 @@ const Project = () => {
           Airbnb Clone
           </h2>
           <p>
-          ntroducing a MERN stack Airbnb Clone web application, designed to seamlessly blend user 
-            authentication through OAuth and JWT, property listing, and reservation capabilities—all powered by an array of REST API endpoints.
+          Introducing a MERN stack Airbnb Clone web application, designed to seamlessly blend user 
+          authentication through OAuth and JWT, property listing, and reservation capabilities—all powered by an array of REST API endpoints.
         
           </p>
           <div>
@@ -94,11 +94,7 @@ const Project = () => {
         <LeftGrid className="order-1">
           <h2 className="text-6xl dark:text-gray-200">Twitter Clone Engine </h2>
           <p>
-                Twitter-like engine using actor model in erlang, with features Register
-Tweet
-Retweet
-Subscribe
-Query tweets.  
+                Twitter-like engine using actor model in erlang, with features Register,Tweet, Retweet, Subscribe, Query tweets.  
             
           </p>
           <div>
@@ -164,7 +160,7 @@ Query tweets.
         <LeftGrid className="order-2">
           <h2 className="text-6xl dark:text-gray-200">ExxonMobil UX Design</h2>
           <p>
-           UX Design for exxon mobil appreciation website  🚀💥💣
+            Employee Appreciation UX Design for Exxon Mobil 🚀💥💣
           </p>
           <div>
           <Button
@@ -229,8 +225,7 @@ Query tweets.
         <LeftGrid className="order-1">
           <h2 className="text-5xl dark:text-gray-200">Gesture Recognition</h2>
           <p>
-            Keystroke gesture recognition of unistroke and multistroke using 1$ and P$ algorithms.
-          </p>
+          Recognizing Keystroke Gestures: Unistroke and Multistroke Recognition with the 1$ and P$ Algorithms.   </p>
           <div>
             <Button
               href="https://github.com/nikhithasudati/HCIRA"
@@ -296,8 +291,7 @@ Query tweets.
             American Sign Language
           </h2>
           <p>
-            Application implemented to recognize the american hand sign using CNN and RNN.
-          </p>
+          An American Sign Language(ASL) hand sign recognition app using CNN and RNN for enhanced communication accessibility          </p>
           <div>
             <Button
               href="https://github.com/nikhithasudati/American-hand-sign-recognition"
@@ -348,6 +342,70 @@ Query tweets.
               data-nimg="intrinsic"
               srcSet="https://ik.imagekit.io/sz5ttlvhz/projects/5.png?updatedAt=1695492326819"
               className="!m-0 !max-w-[100%] !max-h-[100%] !p-12"
+              data-aos="fade-left"
+              data-aos-offset="400"
+              data-aos-duration="500"
+              loading="lazy"
+            />
+          </Span1>
+        </main>
+      </MainGrid>
+      {/* //* 3rd Card  */}
+      <MainGrid className="bg-gradient-to-b from-sky-50 to-sky-300 border-sky-100 dark:from-slate-900 dark:to-pink-700 dark:border-pink-800 dark:border-t ">
+        <LeftGrid className="order-2">
+          <h2 className="text-6xl dark:text-gray-200">Peer-to-peer file sharing software</h2>
+          <p>
+            An effective file sharing software using a choke-unchoke mechanism, allowing downloads from multiple peers.
+          </p>
+          <div>
+          <Button
+              href="https://www.youtube.com/watch?v=-lOgPe6-czw"
+              rel="noreferrer"
+              className="group"
+              onClick={() => {
+                ReactGa.event({
+                  category: "P2P",
+                  action: "Source code",
+                });
+                navigator.vibrate(900);
+              }}
+            >
+              Source Code
+              <svg
+                fill="none"
+                width="12"
+                height="12"
+                viewBox="0 0 10 10"
+                aria-hidden="true"
+                className="group"
+              >
+                <path
+                  className="transition opacity-0 group-hover:opacity-100"
+                  d="M0 5h7"
+                ></path>
+                <path
+                  className="transition group-hover:translate-x-[3px]"
+                  d="M1 1l4 4-4 4"
+                ></path>
+              </svg>
+            </Button>
+          </div>
+        </LeftGrid>
+        <main className="md:order-2 select-none">
+          <Span1>
+            <Span2>
+              <Span2Img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27924%27%20height=%27718%27/%3e"
+              />
+            </Span2>
+            <Img
+              alt="P2P"
+              decoding="async"
+              data-nimg="intrinsic"
+              srcSet="https://ik.imagekit.io/sz5ttlvhz/projects/3.png?updatedAt=1695492326507"
+              className="!ml-0 !max-w-[100%] !max-h-[100%] !p-12"
               data-aos="fade-left"
               data-aos-offset="400"
               data-aos-duration="500"

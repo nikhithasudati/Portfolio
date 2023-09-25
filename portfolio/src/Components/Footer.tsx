@@ -184,7 +184,6 @@ const Footer2 = () => {
               </ButtonDiv>
             </LowerDiv>
           </MainGrid>
-          <Copyright>©{new Date().getFullYear()} Nikhitha Sudati </Copyright>
         </form>
       </footer>
     </>
@@ -391,21 +390,6 @@ sm:flex-shrink-0
 select-none
 `;
 
-const Copyright = tw.p`
-flex 
-justify-center 
-[font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif]
-text-2xl 
-bg-slate-100 
-rounded-t-full
-px-4 
-pt-3 
-pb-1 
-tablet:text-[1.7rem]
-tablet:justify-start 
-md:px-20 
-dark:bg-midnight
-dark:text-slate-200
-`;
+
 
 export default Footer2;
