@@ -350,15 +350,15 @@ const Project = () => {
           </Span1>
         </main>
       </MainGrid>
-      {/* //* 3rd Card  */}
+      {/* 6th grid */}
+
       <MainGrid className="bg-gradient-to-b from-sky-50 to-sky-300 border-sky-100 dark:from-slate-900 dark:to-pink-700 dark:border-pink-800 dark:border-t ">
-        <LeftGrid className="order-2">
-          <h2 className="text-6xl dark:text-gray-200">Peer-to-peer file sharing software</h2>
+        <LeftGrid className="order-1">
+          <h2 className="text-5xl dark:text-gray-200">Peer-to-peer file sharing software</h2>
           <p>
-            An effective file sharing software using a choke-unchoke mechanism, allowing downloads from multiple peers.
-          </p>
+          An effective file sharing software using a choke-unchoke mechanism, allowing downloads from multiple peers.   </p>
           <div>
-          <Button
+            <Button
               href="https://github.com/nikhithasudati/Peer-to-Peer-filesharing"
               rel="noreferrer"
               className="group"
@@ -391,7 +391,7 @@ const Project = () => {
             </Button>
           </div>
         </LeftGrid>
-        <main className="md:order-2 select-none">
+        <main className="select-none">
           <Span1>
             <Span2>
               <Span2Img
@@ -401,12 +401,12 @@ const Project = () => {
               />
             </Span2>
             <Img
-              alt="P2P"
+              alt="P2p"
               decoding="async"
               data-nimg="intrinsic"
-              srcSet="https://ik.imagekit.io/sz5ttlvhz/projects/3.png?updatedAt=1695492326507"
+              srcSet="https://ik.imagekit.io/sz5ttlvhz/projects/8%20(1).png?updatedAt=1696430696878"
               className="!ml-0 !max-w-[100%] !max-h-[100%] !p-12"
-              data-aos="fade-left"
+              data-aos="fade-right"
               data-aos-offset="400"
               data-aos-duration="500"
               loading="lazy"
