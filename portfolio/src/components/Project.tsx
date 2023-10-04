@@ -354,7 +354,7 @@ const Project = () => {
 
       <MainGrid className="bg-gradient-to-b from-sky-50 to-sky-300 border-sky-100 dark:from-slate-900 dark:to-pink-700 dark:border-pink-800 dark:border-t ">
         <LeftGrid className="order-1">
-          <h2 className="text-5xl dark:text-gray-200">Peer-to-peer file sharing software</h2>
+          <h2 className="text-5xl dark:text-gray-200">Peer-to-Peer file sharing software</h2>
           <p>
           An effective file sharing software using a choke-unchoke mechanism, allowing downloads from multiple peers.   </p>
           <div>

@@ -58,20 +58,20 @@ const Work = () => {
             </div>
           </div>
           <p className="relative pb-4 md:border-b dark:text-gray-200 md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-[1.7rem] font-sans">
-          • Engineered Student Application Management System with OnBase Unity Forms, Workflow, and WorkView, reducing processing time by 75% for 40+ internal departments within University.
+          • Engineered Student Application Management System with OnBase Unity Forms, Workflow, and WorkView, reducing processing time by <strong>75%</strong> for 40+ internal departments within University.
             <br />
             {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
               Achievements: &nbsp;
             </span> */}
-           • Redesigned the DocuSign and OnBase websites utilizing React to optimize the user experience, resulting in a 50%
+           • Redesigned the DocuSign and OnBase websites utilizing React to optimize the user experience, resulting in a <strong>50%</strong>
 increase in engagement clicks. <br />
             {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
               Contact: &nbsp;
             </span> */}
-            • Enhanced efficiency of OnBase Web Client by 30% through integration of document IDs into REST API queries.
+            •	Managed Enterprise Content Management environment for over <strong>40,000</strong> users, optimizing workflows and data access. <br />
+            • Enhanced efficiency of OnBase Web Client by <strong>30% </strong> through integration of document IDs into REST API queries.
             This enhancement significantly elevated end-user experience. <br />
-            • Executed the migration of SOAP API configuration to RESTful API in DocuSign, simplifying user interactions and
-            enhancing usability.
+            •	Led Migration of backend architecture from SOAP API to RESTful API in DocuSign, simplifying client interaction by <strong>35%</strong> and boosting operational efficiency.
           </p>
         </Article>
         
@@ -125,9 +125,9 @@ increase in engagement clicks. <br />
             {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
               Contact: &nbsp;
             </span> */}
-            • Achieved 90% Test Coverage by automating Regression Testing with Selenium WebDriver & Custom XPaths. <br />
-            • Implemented a CI/CD process for integration testing of software packages utilizing Jenkins, GitHub, and AWS
-Lambda, resulting in a 50% enhancement in Pipeline Reliability.
+            • Achieved <strong>90% </strong>Test Coverage by automating Regression Testing with Selenium WebDriver & Custom XPaths. <br />
+            •	Improved build artifact reliability by <strong>50%</strong> through the implementation of a CI/CD process for integration testing using Selenium, 
+            Jenkins, GitHub, and AWS Lambda.
           </p>
         </Article>
         
