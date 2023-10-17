@@ -4,6 +4,8 @@ import Ruler from "./Hr";
 import { Link } from "react-scroll";
 import ReactGa from "react-ga4"
 
+
+
 const Header = () => {
   return (
     <>
@@ -37,6 +39,7 @@ const Header = () => {
       {/* //* Content with Image */}
       <main>
         <header className="grid items-center grid-cols-1  text-center md:mt-24 md:text-left md:grid-cols-6">
+        
         <LeftH1
   data-aos="fade-right"
   data-aos-duration="1000"
@@ -46,38 +49,25 @@ const Header = () => {
 >
   Hello, I'm
   <span className="text-teal-500 dark:text-teal-400">
-    &nbsp;Nikhitha
+    &nbsp;Nikhitha Sudati
   </span>
-  . I'm a student, Web developer, and enthusiastic learner. 
+  . A CS Grad student, Web Developer, and enthusiastic learner. 
   
 </LeftH1>
     
+    <div className="order-1 md:order-2">
+  <ProfileImgDiv>
+    <ProfileImg
+      alt="Nikhitha Sudati"
+      src="https://ik.imagekit.io/sz5ttlvhz/DSC02442.jpg?updatedAt=1697562382042"
+      className="col-span-1 rounded-full"
+      data-aos="fade-left"
+      data-aos-easing="ease-in-sine"
+      loading="lazy"
+    />
+  </ProfileImgDiv>
+</div>
 
-
-
-          <div className="order-1 md:order-2">
-            {/* <ProfileImgDiv>
-              <ProfileImg
-                alt="Nikhitha Sudati"
-                src="https://ik.imagekit.io/sz5ttlvhz/IMG_8373.heic?updatedAt=1695493455190"
-                className="col-span-1 rounded-full"
-                data-aos="fade-left"
-                data-aos-easing="ease-in-sine"
-                loading="lazy"
-                />
-            </ProfileImgDiv> */}
-            <ProfileImgDiv>
-  <ProfileImg
-    alt="Nikhitha Sudati"
-    src="https://ik.imagekit.io/sz5ttlvhz/IMG_8373.heic?updatedAt=1695493455190"
-    className="col-span-1 rounded-full"
-    data-aos="fade-left"
-    data-aos-easing="ease-in-sine"
-    loading="lazy"
-  />
-</ProfileImgDiv>
-
-          </div>
         </header>
 
         {/* //* Bottom Buttons */}
@@ -190,7 +180,7 @@ const RayHero = styled.img`
 
 const LeftH1 = styled.h1`
   ${tw`
-    text-5xl
+    text-4xl
     order-2 
     z-10 
     col-span-5 
@@ -202,12 +192,13 @@ const LeftH1 = styled.h1`
     leading-tight 
     md:leading-normal 
     md:order-1 
-    xxsm:text-6xl
-    sm:text-7xl
-    md:text-[4.8rem]
+    xxsm:text-4xl
+    sm:text-6xl
+    md:text-[4.0rem]
     dark:text-gray-200
     `}
 `;
+
 const ProfileImgDiv = styled.span`
   top: 3.5rem;
   box-sizing: border-box;
@@ -228,25 +219,30 @@ const ProfileImgDiv = styled.span`
   lg:top-[3.5rem]
   `}
 `;
+
 const ProfileImg = styled.img`
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  box-sizing: border-box;
-  padding: 0;
-  border: none;
-  margin: auto;
-  display: block;
-  width: 0;
-  height: 0;
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 100%;
-  max-height: 100%;
-  user-select: none;
+position: absolute;
+z-index: 10;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+box-sizing: border-box;
+padding: 0;
+border: none;
+margin: auto;
+display: block;
+max-width: 100%; /* Set the max-width to 100% to ensure it scales down on small screens */
+min-width: auto;
+min-height: auto;
+max-height: 100%;
+user-select: none;
+
+@media (max-width: 768px) {
+  /* Set the max-width to a smaller value for phones */
+  max-width: 100%; /* Adjust this value as needed */
+}
+  
 `;
 
 const BtnDiv = tw.section`
