@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import { GlobalStyle } from "./styles/GlobalStyle";
 import { ThemeProvider } from "styled-components";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 import reportWebVitals from "./reportWebVitals";
 import {Analytics} from '@vercel/analytics/react'
 
