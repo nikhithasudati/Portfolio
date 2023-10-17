@@ -46,7 +46,7 @@ const Work = () => {
                 }}
               >
                 <h3 className="p-0 m-0 pt-2 text-4xl font-bold mb-4 dark:text-gray-200">
-                  IT Analyst Intern
+                  Application Developer Intern
                 </h3>
               </a>
               <p className="p-0 m-0 text-3xl mb-2 dark:text-gray-200">
@@ -117,15 +117,15 @@ increase in engagement clicks. <br />
             </div>
           </div>
           <p className="relative pb-4 md:border-b dark:text-gray-200 md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-[1.7rem] font-sans">
-          • Developed various Web services using C#, .NET, with Oracle SQL as a backend to support Multi-Tiered web apps.            <br />
+          • Designed and developed scalable multi-tiered web applications for clients in the Insurance Industry, using C#, .NET, and Oracle SQL as a backend to ensure robust and customized solutions.           <br />
             {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
               Achievements: &nbsp;
             </span> */}
-            • Maintained Multi-Tiered Web Applications tailored for Clients in Insurance Industry. <br />
+            • Maximized development and deployment efficiency with Maven/Gradle scripts, while achieving a <strong>90%</strong> test coverage through automated regression testing with Selenium WebDriver and custom XPaths. <br />
             {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
               Contact: &nbsp;
             </span> */}
-            • Achieved <strong>90% </strong>Test Coverage by automating Regression Testing with Selenium WebDriver & Custom XPaths. <br />
+            • Executed Azure DevOps CI/CD pipelines, automating microservices deployment in Azure. Achieved seamless scalability, proactive monitoring and <strong>35%</strong> faster incident response.  <br />
             •	Improved build artifact reliability by <strong>50%</strong> through the implementation of a CI/CD process for integration testing using Selenium, 
             Jenkins, GitHub, and AWS Lambda.
           </p>

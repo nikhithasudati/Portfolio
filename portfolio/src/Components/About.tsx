@@ -128,7 +128,7 @@ const About = () => {
               data-aos-duration="400"
               data-aos-once="true"
             >
-              <CardHeading>Devops</CardHeading>
+              <CardHeading>DevOps</CardHeading>
               <LangDiv3>
                 {Tools.map((val) => {
                   return [

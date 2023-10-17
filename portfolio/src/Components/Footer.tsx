@@ -190,6 +190,10 @@ const Footer2 = () => {
   );
 };
 
+
+ 
+
+
 const BgImg = tw.img`
 absolute 
 mt-[-5.7rem] 
