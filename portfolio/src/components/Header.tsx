@@ -102,7 +102,7 @@ const Header = () => {
               </svg>
             </BtnPrimary>
           </Link>
-          <a href="https://drive.google.com/file/d/1mUfOMST6wSGPwrOYJHnlijW_0tRwbRmS/view?usp=sharing" target="_blank" onClick={ ()=>{ ReactGa.event({category: "Resume", action:"Downloaded Resume", label:"Test Label"})}} rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1GZwqHMVV-4Sm3zlO6wXSzlHgTzt9opNQ/view?usp=drive_link" target="_blank" onClick={ ()=>{ ReactGa.event({category: "Resume", action:"Downloaded Resume", label:"Test Label"})}} rel="noreferrer">
             <Button2 aria-label="button" className="group" onClick={()=>{navigator.vibrate(1000)}}>
               View Resume
               <svg
@@ -232,15 +232,14 @@ padding: 0;
 border: none;
 margin: auto;
 display: block;
-max-width: 100%; /* Set the max-width to 100% to ensure it scales down on small screens */
+max-width: 100%; 
 min-width: auto;
 min-height: auto;
 max-height: 100%;
 user-select: none;
 
 @media (max-width: 768px) {
-  /* Set the max-width to a smaller value for phones */
-  max-width: 100%; /* Adjust this value as needed */
+  max-width: 100%; 
 }
   
 `;
