@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import Header from "./components/Header";
-import About from "./components/About";
-import { Project } from "./components/Project";
-import Work from "./components/Work";
-import Footer from "./components/Footer";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import { Project } from "./Components/Project";
+import Work from "./Components/Work";
+import Footer from "./Components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
