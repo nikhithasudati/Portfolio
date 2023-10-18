@@ -4,7 +4,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Link } from "react-scroll";
 import ReactGa from "react-ga4"
 
-const Footer2 = () => {
+const Footer = () => {
   return (
     <>
       <footer id="Footer" className="relative">
@@ -396,4 +396,4 @@ select-none
 
 
 
-export default Footer2;
+export default Footer;
