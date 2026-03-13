@@ -15,28 +15,17 @@ const About = () => {
           <TitleDivider />
 
           <article className="mt-8">
-          <LeftPara>
-  Hi, I'm Nikhitha Sudati, currently pursuing a graduate degree in Computer Science at the University of Florida. 
-  I'm a tech enthusiast with a fervor for exploring the latest technologies to solve real-world challenges.
-</LeftPara>
+            <LeftPara>
+              Backend Engineer with 3+ years building production distributed systems at scale; from identity platforms processing 50M+ daily auth requests to microservices handling 2M+ users at 99.9% uptime. Track record of solving hard infrastructure problems: cut $50K/year in costs decomposing a Java monolith, reduced p99 latency 50%, and delivered SOC2 compliance at SailPoint.
+            </LeftPara>
 
-<LeftPara>
-  I thrive on exploring emerging technologies and eagerly dive into various tech domains. 
-  When I'm not studying, you'll often find me immersed in open-source projects.
-</LeftPara>
-<LeftPara>
-  I specialize in both web development and backend technologies, combining creativity with technical prowess. 
-  My strength lies in crafting visually stunning, user-centric websites with seamless interactions, 
-  all while efficiently managing server-side components and database operations.
-</LeftPara>
+            <LeftPara>
+              Extensive hands-on experience in Java, Golang, AWS, event-driven architecture, and API security across identity, infrastructure, and data platforms. Targeting senior backend or platform engineering roles focused on reliability, scale, and clean system design.
+            </LeftPara>
 
-<LeftPara>
-   I'm actively seeking roles in <strong>Software Development</strong>, covering a spectrum from <strong>SDE and Full Stack 
-  to Frontend, Backend, and DevOps</strong>.Starting in January 2024, I'm excited to take on new challenges and contribute to innovative projects.
-</LeftPara>
-
-
-
+            <LeftPara>
+              Core skills: Java, Golang, Python, SQL, JavaScript/TypeScript, C/C++, Spring Boot, .NET, REST APIs, gRPC, GraphQL, AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, Terraform, Linux, PostgreSQL, MongoDB, Oracle, MySQL, Redis, OAuth2, SAML, JWT, Kafka, Temporal, Prometheus, Grafana, Cypress.
+            </LeftPara>
           </article>
         </LeftGrid>
 

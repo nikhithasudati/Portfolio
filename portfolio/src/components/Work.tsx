@@ -35,47 +35,42 @@ const Work = () => {
                 ></path>
               </svg>
               <a
-                href="https://github.com/Bhanu1776/IT-Dept-Website"
+                href="https://www.sailpoint.com/"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => {
                   ReactGa.event({
-                    category: "Internships",
-                    action: "Checking Internship repository",
+                    category: "Work",
+                    action: "Viewed SailPoint role",
                   });
                 }}
               >
                 <h3 className="p-0 m-0 pt-2 text-4xl font-bold mb-4 dark:text-gray-200">
-                  Application Developer Intern
+                  Software Engineer II
                 </h3>
               </a>
               <p className="p-0 m-0 text-3xl mb-2 dark:text-gray-200">
-                UF Information Technology(UFIT)
+                SailPoint Technologies
               </p>
               <p className="p-0 m-0 text-2xl dark:text-gray-200 text-gray-500 before:content-['['] dark:before:text-teal-500 before:text-indigo-500 after:text-indigo-500 after:font-bold before:font-bold after:content-[']'] dark:after:text-teal-500 after:text-indigo-500after:font-bold">
-                &nbsp; May 2023 - Present &nbsp;
+                &nbsp; June 2024 - Present &nbsp;
               </p>
             </div>
           </div>
           <p className="relative pb-4 md:border-b dark:text-gray-200 md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-[1.7rem] font-sans">
-          • Engineered Student Application Management System with OnBase Unity Forms, Workflow, and WorkView, reducing processing time by <strong>75%</strong> for 40+ internal departments within University.
+            • Decomposed Java monolith into 8 event-driven Golang microservices (Kafka + Redis) to cut p99 API latency 50%, reduce load 45%, and save $50K/year.
             <br />
-            {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
-              Achievements: &nbsp;
-            </span> */}
-           • Redesigned the DocuSign and OnBase websites utilizing React to optimize the user experience, resulting in a <strong>50%</strong>
-increase in engagement clicks. <br />
-            {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
-              Contact: &nbsp;
-            </span> */}
-            •	Managed Enterprise Content Management environment for over <strong>40,000</strong> users, optimizing workflows and data access. <br />
-            • Enhanced efficiency of OnBase Web Client by <strong>30% </strong> through integration of document IDs into REST API queries.
-            This enhancement significantly elevated end-user experience. <br />
-            •	Led Migration of backend architecture from SOAP API to RESTful API in DocuSign, simplifying client interaction by <strong>35%</strong> and boosting operational efficiency.
+            • Architected distributed systems achieving 99.9% uptime across 2M+ daily users and reduced MTTR from 45min to 29min via automated failover and observability.
+            <br />
+            • Built multi-tenant auth platform (OAuth2/SAML/JWT) processing 50M+ daily requests, adding dynamic token refresh, rate limits, and SOC2-compliant revocation.
+            <br />
+            • Optimized PostgreSQL schemas with composite indexes and query tuning, improving p95 latency from 2.1s to 650ms while supporting 3x traffic.
+            <br />
+            • Orchestrated Temporal-based provisioning workflows with retries and exponential backoff, reducing customer onboarding failures 75%.
           </p>
         </Article>
-        
       </section>
+
       <section>
         <Article>
           <div className="relative pb-12 md:col-span-2">
@@ -94,44 +89,87 @@ increase in engagement clicks. <br />
                 ></path>
               </svg>
               <a
-                href="https://github.com/Bhanu1776/IT-Dept-Website"
+                href="https://www.ufl.edu/"
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => {
                   ReactGa.event({
-                    category: "Internships",
-                    action: "Checking Internship repository",
+                    category: "Work",
+                    action: "Viewed UF role",
                   });
                 }}
               >
                 <h3 className="p-0 m-0 pt-2 text-4xl font-bold mb-4 dark:text-gray-200">
-                  Associate Software Engineer
+                  Software Engineer
+                </h3>
+              </a>
+              <p className="p-0 m-0 text-3xl mb-2 dark:text-gray-200">
+                University of Florida
+              </p>
+              <p className="p-0 m-0 text-2xl dark:text-gray-200 text-gray-500 before:content-['['] dark:before:text-teal-500 before:text-indigo-500 after:text-indigo-500 after:font-bold before:font-bold after:content-[']'] dark:after:text-teal-500 after:text-indigo-500after:font-bold">
+                &nbsp; May 2023 - June 2024 &nbsp;
+              </p>
+            </div>
+          </div>
+          <p className="relative pb-4 md:border-b dark:text-gray-200 md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-[1.7rem] font-sans">
+            • Built backend grant management system (C#/.NET + MySQL) with role-based access control and optimized schemas, processing $50M+ in research funding for 50+ faculty investigators; cut query execution time 30%.
+            <br />
+            • Designed Python ETL pipeline for financial analytics with automated data visualizations, enabling portfolio rebalancing decisions that produced a $2.5M value increase.
+            <br />
+            • Designed and implemented RESTful APIs using Spring Boot with gRPC for inter-service communication; achieved sub-100ms p95 latency at 10K requests/second with 99.5% uptime.
+          </p>
+        </Article>
+      </section>
+
+
+      <section>
+        <Article>
+          <div className="relative pb-12 md:col-span-2">
+            <div className="sticky top-28">
+              <svg
+                className="absolute left-[-38px] md:left-[-50px] color-bg-default color-fg-muted bg-white dark:bg-dark rounded-full dark:text-gray-500"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="28"
+                height="28"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M15.5 11.75a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0zm1.444-.75a5.001 5.001 0 00-9.888 0H2.75a.75.75 0 100 1.5h4.306a5.001 5.001 0 009.888 0h4.306a.75.75 0 100-1.5h-4.306z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <a
+                href="https://www.dxc.com/"
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => {
+                  ReactGa.event({
+                    category: "Work",
+                    action: "Viewed DXC role",
+                  });
+                }}
+              >
+                <h3 className="p-0 m-0 pt-2 text-4xl font-bold mb-4 dark:text-gray-200">
+                  Software Engineer
                 </h3>
               </a>
               <p className="p-0 m-0 text-3xl mb-2 dark:text-gray-200">
                 DXC Technology
               </p>
               <p className="p-0 m-0 text-2xl dark:text-gray-200 text-gray-500 before:content-['['] dark:before:text-teal-500 before:text-indigo-500 after:text-indigo-500 after:font-bold before:font-bold after:content-[']'] dark:after:text-teal-500 after:text-indigo-500after:font-bold">
-                &nbsp; March 2021 - December 2021 &nbsp;
+                &nbsp; June 2021 - December 2021 &nbsp;
               </p>
             </div>
           </div>
           <p className="relative pb-4 md:border-b dark:text-gray-200 md:border-gray-300 md:dark:border-gray-400 md:col-span-3 text-[1.7rem] font-sans">
-          • Designed and developed scalable multi-tiered web applications for clients in the Insurance Industry, using C#, .NET, and Oracle SQL as a backend to ensure robust and customized solutions.           <br />
-            {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
-              Achievements: &nbsp;
-            </span> */}
-            • Maximized development and deployment efficiency with Maven/Gradle scripts, while achieving a <strong>90%</strong> test coverage through automated regression testing with Selenium WebDriver and custom XPaths. <br />
-            {/* <span className="font-semibold text-slate-800 dark:text-gray-200">
-              Contact: &nbsp;
-            </span> */}
-            • Executed Azure DevOps CI/CD pipelines, automating microservices deployment in Azure. Achieved seamless scalability, proactive monitoring and <strong>35%</strong> faster incident response.  <br />
-            •	Improved build artifact reliability by <strong>50%</strong> through the implementation of a CI/CD process for integration testing using Selenium, 
-            Jenkins, GitHub, and AWS Lambda.
+            • Developed microservices-based insurance claims processing platform (Spring Boot + Oracle SQL) handling 10K+ daily transactions at 99.5% SLA.
+            <br />
+            • Optimized database queries and connection pooling, doubling concurrent user capacity and cutting average transaction time 40% while maintaining sub-second response.
           </p>
         </Article>
-        
       </section>
+
       <Ruler />
     </>
   );

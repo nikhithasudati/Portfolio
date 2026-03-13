@@ -21,8 +21,8 @@ const App = () => {
         <MainDiv id="Blur">
           <Header />
           <About />
-          <Project />
           <Work />
+          <Project />
           <Footer />
         </MainDiv>
       </div>

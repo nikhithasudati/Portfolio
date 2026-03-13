@@ -51,7 +51,7 @@ const Header = () => {
   <span className="text-teal-500 dark:text-teal-400">
     &nbsp;Nikhitha Sudati
   </span>
-  . A CS Grad student, Web Developer, and enthusiastic learner. 
+  . Backend Engineer with 3+ years building production distributed systems at scale.
   
 </LeftH1>
     
@@ -102,7 +102,7 @@ const Header = () => {
               </svg>
             </BtnPrimary>
           </Link>
-          <a href="https://drive.google.com/file/d/1GZwqHMVV-4Sm3zlO6wXSzlHgTzt9opNQ/view?usp=drive_link" target="_blank" onClick={ ()=>{ ReactGa.event({category: "Resume", action:"Downloaded Resume", label:"Test Label"})}} rel="noreferrer">
+          <a href="https://drive.google.com/file/d/1dpwGWPrl1n9_xkx2MVP6IRgPDBoKlX52/view?usp=drive_link" target="_blank" onClick={ ()=>{ ReactGa.event({category: "Resume", action:"Downloaded Resume", label:"Resume Button"})}} rel="noreferrer">
             <Button2 aria-label="button" className="group" onClick={()=>{navigator.vibrate(1000)}}>
               View Resume
               <svg
